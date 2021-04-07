@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import  Aos  from 'aos';
-import axios from 'axios';
+import { axios } from '../../../axios';
 import { Link } from 'react-router-dom';
 
 
@@ -67,7 +67,7 @@ export default function TimeLine() {
         Aos.init({duration: 2000});
 
         (async () => {
-            const { data }  = await axios.get('http://localhost:8000/api/get-events');
+            const { data }  = await axios.get('/get-events');
             setEvents( data.events );
         })();
 

@@ -12,7 +12,3 @@ code {
     monospace;
 }
 
-.border-main-color {
-  border-color: var(--primary1) !important;
-  border-width: 4px !important;
-}

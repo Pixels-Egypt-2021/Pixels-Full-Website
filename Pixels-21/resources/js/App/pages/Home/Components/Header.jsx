@@ -32,7 +32,7 @@ function Header() {
                     <li> <a target="_blanck" href="https://twitter.com/pixelsegypt?lang=en"       > <i className="fab fa-twitter"></i>      </a> </li>
                     <li> <a target="_blanck" href="https://www.instagram.com/pixelsegypt/"        > <i className="fab fa-instagram"></i>    </a> </li>
                     <li> <a target="_blanck" href="https://www.youtube.com/c/PixelsEgypt"         > <i className="fab fa-youtube"></i>      </a> </li>
-                    <li> <a target="_blanck" href="https://www.linkedin.com/company/pixels-hsb/"  > <i className="fab fa-linkedin-square"></i>  </a> </li>
+                    <li> <a target="_blanck" href="https://www.linkedin.com/company/pixels-hsb/"  > <i className="fab fa-linkedin-in"></i>  </a> </li>
                 </ul>
             </div>
 

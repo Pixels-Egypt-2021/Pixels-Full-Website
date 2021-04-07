@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import Aos from "aos";
-import axios from 'axios';
+import { axios } from '../../../axios';
 
 import Header from './Header';
 
@@ -22,10 +22,10 @@ export default function Project() {
                 id : id
             }
 
-            const { data }  = await axios.post('http://localhost:8000/api/get-project-details-id', object);
+            const { data }  = await axios.post('/get-project-details-id', object);
             setProject( data.project );
 
-            const projectContent  = await axios.get('http://localhost:8000/api/get-projects-content', object);
+            const projectContent  = await axios.get('/get-projects-content', object);
             setProjectContent( projectContent.data.project );
 
         })();

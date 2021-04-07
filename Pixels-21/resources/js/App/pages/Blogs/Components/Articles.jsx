@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Aos from "aos";
 import { Link } from 'react-router-dom';
-import axios from 'axios'; 
+import { axios } from '../../../axios'; 
 
 
 export default function Articles() {
@@ -13,7 +13,7 @@ export default function Articles() {
         Aos.init({duration: 2000});
 
         (async () => {
-            const { data }  = await axios.get('http://localhost:8000/api/articles');
+            const { data }  = await axios.get('/articles');
             setArticles( data.articles );
             setLastArticle( data.articles[data.articles.length - 1]);
         })();

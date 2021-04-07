@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import Header from './Header';
 import  Aos  from 'aos';
-import axios from 'axios';
+import { axios } from '../../../axios';
 
 export default function Blog() {
 
@@ -16,7 +16,7 @@ export default function Blog() {
             let object = {
                 id : id
             }
-            const { data }  = await axios.post('http://localhost:8000/api/article-by-id',object);
+            const { data }  = await axios.post('/article-by-id',object);
             setArticle( data.article );
         })();
 

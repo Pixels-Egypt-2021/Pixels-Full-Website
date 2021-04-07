@@ -27,12 +27,9 @@ import {
   import Error from './pages/Nomatched/Error';
   import Blogs from "./pages/Blogs/Blogs";
   import ProjectsContst from "./pages/projectAndCourses/ProjectsContst";
-  import MiniEventForm from './pages/Forms/MiniEventForm';
 
-import Projects from './pages/Admin/Projects';
 import Project from './pages/projectAndCourses/Compoments/Project';
 import Blog from './pages/Blogs/Components/Blog';
-import InternalMiniEventForm from './pages/Forms/InternalMiniEventForm';
 
 class App extends React.Component {
     render(){
@@ -48,9 +45,6 @@ class App extends React.Component {
                     <Route path="/blog/:id">        <Blog />                    </Route>
                     <Route path="/pixels-events">   <EventsPage />              </Route>
                     <Route path="/magazine">        <Magazine />                </Route>
-                    <Route path="/gap">             <MiniEventForm />           </Route>
-                    <Route path="/gap-internal">    <InternalMiniEventForm />   </Route>
-                    <Route path="/adminx-projects"> <Projects />                </Route>
                     <Redirect exact from="/" to="/home" />
                     <Route >
                         <Error />

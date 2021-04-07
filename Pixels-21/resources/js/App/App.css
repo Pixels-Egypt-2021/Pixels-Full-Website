@@ -391,7 +391,6 @@ header .pixels-logo {
 
 .border-main-color {
   border-color: var(--primary1) !important;
-  border-width: 4px !important;
 }
 
 .timeline {
