@@ -9,27 +9,27 @@ Pixels is a student activity established 6 years ago in helwan University; a non
 ### Run The Project
 
 1- Install vendor for laravel liberies.
-```bash
+```php
 composer install
 ```
 
 2- Install npm 
-```bash
+```npm
 npm i
 ```
 
 3- Take a cope of the .env.example file to new file named ".env" in same dir.
    then:
-   ```bash
+   ```artisan
    php artisan key:generate
    ```
 
 4- Torun the local host
-```bash
+```php
 php artisan serve
 ```
 
 5- Run react at dev mode
-```bash
+```npm
 npm run watch
 ```
