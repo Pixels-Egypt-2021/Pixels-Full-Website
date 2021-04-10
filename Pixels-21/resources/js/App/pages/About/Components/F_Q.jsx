@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { FaArrowCircleRight } from "react-icons/fa";
+import { Container, Row } from 'react-bootstrap';
 
 
 
@@ -33,8 +34,8 @@ const F_Q = () => {
 
 
   return (
-    <section className="F_Q my-5 container" id="F_Q">
-      <div className="row justify-content-lg-between justify-content-center">
+    <Container className="F_Q my-5" id="F_Q">
+      <Row className="justify-content-lg-between justify-content-center">
         <div className="F_Q-titles col-lg-3 col-4">
           <h3 className="F_Q-info-subtitle text-lg-left text-center">Recurring questions I get</h3>
           <p className="section-title1">F.A.Q</p>
@@ -50,8 +51,8 @@ const F_Q = () => {
             ))}
           </div>
         </div>
-      </div>
-    </section>
+      </Row>
+    </Container>
   )
 }
 export default F_Q;
