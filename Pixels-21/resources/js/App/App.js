@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { ToastContainer, toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
-import './index.css';
+// import './index.css';
 // import App from './App';
 
 import {
@@ -22,6 +22,7 @@ import {
   import Navbar from './Components/NavbarComponent';
   import Footer from './Components/Footer';
   import HomePage from './pages/Home/HomePage';
+  import AboutPage from './pages/About/AboutPage';
   import EventsPage from './pages/EventsPage/EventsPage';
   import Magazine from './pages/Magazine/Magazine';
   import Error from './pages/Nomatched/Error';
@@ -39,6 +40,7 @@ class App extends React.Component {
                 <ToastContainer />
                 <Switch>
                     <Route path="/home">            <HomePage />                </Route>
+                    <Route path="/about">           <AboutPage />               </Route>
                     <Route path="/project-contest"> <ProjectsContst />          </Route>
                     <Route path="/project/:id">     <Project />                 </Route>
                     <Route path="/blogs">           <Blogs />                   </Route>

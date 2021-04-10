@@ -19,16 +19,28 @@ export default function About() {
     return (
         <section id="about" className="about container py-5">
 
-            <div className="row ">
-                <div className="col-lg-12 text-center mb-3">
-                    <div className="pixels-word">Pixels</div>
-                    <h2>About Us</h2>
-                    <h3>We Learn ... We Make ... We Share</h3>
-                    <p>
-                    Pixels is a student activity established 6 years ago in helwan University; a non-profit organization, We are a community of makers and ambitious talented engineers, aiming to build a community that believes in science and building instead of consuming, because only by the aid of science and knowledge we can achieve our vision, which is to spread the engineering science, to create a productive community.
-                    </p>
+            <div className="row">
+                <div className="container">
+                    <div className="row">
+                    <div className="about-info col-lg-6 col-12">
+                        <h3 className="section-title1">About US</h3>
+                        <span className="line mx-md-auto d-inline-block"></span>
+                        <p className="about-desc ">Pixels is a student activity established 6 years ago in helwan University; a non-profit organization, We are a community of makers and ambitious talented engineers, aiming to build a community that believes in science and building instead of consuming, because only by the aid of science and knowledge we can achieve our vision, which is to spread the engineering science, to create a productive community.</p>
+                        <p className="d-inline-block about-feature"><img alt="arrow-icon" className="feature-img mr-2 float-left" src="./img/icons/arrow-dropright-circle.svg" />Choose from over 15000 courses</p>
+                        <p className="d-inline-block about-feature"><img alt="arrow-icon" className="feature-img mr-2 float-left" src="./img/icons/arrow-dropright-circle.svg" />Reduce the gap between the career and academic study</p>
+                        <p className="d-inline-block about-feature"><img alt="arrow-icon" className="feature-img mr-2 float-left" src="./img/icons/arrow-dropright-circle.svg" />Can take concerns away right away</p>
+                    </div>
+                    <div className="about-images text-center col-lg-6 col-12">
+                        <img alt="about" className="position-absolute about-img about-img2" width="220px" height="150px" src="./img/home-page/about/about2.jpg" alt=""/>
+                        <img alt="about" className="position-absolute about-img about-img1" width="220px" height="150px" src="./img/home-page/about/about1.jpg" alt=""/>
+                        <img alt="about" className="position-absolute about-img about-img3" width="220px" height="150px" src="./img/home-page/about/about3.jpg" alt=""/>
+                        <img alt="about" className="position-absolute about-img about-img4" width="220px" height="150px" src="./img/home-page/about/about4.jpg" alt=""/>
+                    </div>
+                    </div>
                 </div>
+            </div>
 
+            <div className="row">
                 <div className="col-lg-6 align-self-center v-m-heading" >
 
                     <label className=" rounded-pill">What We Do?</label>

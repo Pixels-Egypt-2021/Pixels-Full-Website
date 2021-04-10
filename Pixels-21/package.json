@@ -28,6 +28,8 @@
     "dependencies": {
         "aos": "^2.3.4",
         "joi-browser": "^13.4.0",
+        "react-bootstrap": "^1.5.2",
+        "react-icons": "^4.2.0",
         "react-router": "^5.2.0",
         "react-router-dom": "^5.2.0",
         "react-toastify": "^7.0.3"

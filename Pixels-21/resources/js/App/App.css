@@ -22,6 +22,19 @@
 /*----------------------------------------------------------
   Global Styles
 -----------------------------------------------------------*/
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
 
 body {
   /* font-family: 'Nunito', sans-serif !important; */
@@ -272,7 +285,56 @@ header .pixels-logo {
 
 /* End of Header */
 
+
+/*****************************************************/
+/*Start Slogan section*/
+.slogan-container {
+  background-color: #010910;
+  color: white;
+  left: 50%;
+  bottom: 0;
+}
+#slogan .container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.slogan-text {
+  font-size: calc(8px + 2.2vw);
+}
+/*End Slogan section*/
+
+
 /* Start About section */
+
+/*****************************************************/
+/*About section*/
+.about-desc {
+  color: #706f6f;
+  font-size: calc(8px + 0.6vw);
+}
+.about-feature {
+  color: #5c8196;
+  font-size: calc(7px + 0.6vw);
+}
+.about-img1 {
+  top: 20px;
+  right: 43%;
+}
+.about-img2 {
+  top: -30px;
+  right: 6%;
+}
+.about-img3 {
+  top: 190px;
+  right: 37%;
+}
+.about-img4 {
+  top: 140px;
+  right: 0;
+}
+
+
+
 
 .about {
   position: relative;
