@@ -1,4 +1,5 @@
 import React from 'react';
+import Slogan from '../Home/Components/Slogan';
 import About from './Components/About';
 import Articles from './Components/Articles';
 import Header from './Components/Header';
@@ -12,9 +13,9 @@ function HomePage() {
     return (
 
 <>
-     <Header />
+    <Header />
     <main>
-
+        <Slogan />
         <About />
         <SeeMagazine />
         <Articles />
