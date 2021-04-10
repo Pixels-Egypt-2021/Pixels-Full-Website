@@ -4,3 +4,11 @@ Pixels is a student activity established 6 years ago in helwan University; a non
 
 
 ## OUR Best Doc
+
+
+### Run The Project
+
+1- command one instal vendor for laravel liberies.
+```bash
+commposer instal
+```
