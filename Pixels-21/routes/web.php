@@ -31,3 +31,6 @@ Route::get('/{mainPath?}', function () {
 Route::get('project/{projectId?}', function () {
     return view('app');
 });
+Route::get('courses/{courseId?}', function () {
+    return view('app');
+});
