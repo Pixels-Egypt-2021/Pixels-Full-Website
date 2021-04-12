@@ -35,15 +35,15 @@ ul {
 }
 .header-info-desc1 {
   font-size: calc(8px + 0.8vw);
-  color: #abbfda;
+  color: #ccd7df;
 }
 .header-info-desc2-left-title, .header-info-desc2-right-title  {
   font-size: calc(8px + 1.3vw);
   color: #FFFFFF;
 }
 .header-info-desc2-left-desc, .header-info-desc2-right-desc {
-  color: #abbfda;
-   font-size: calc(8px + 0.8vw);
+  color: #a9b5cc;
+  font-size: calc(8px + 0.8vw);
 }
 
 .about-slogan-text {

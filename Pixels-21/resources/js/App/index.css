@@ -21,7 +21,7 @@
   background-color: rgba(0, 0, 0, 0.274);
 }
 .py {
-  padding:  120px;
+  padding:  120px 0;
 }
 .wave {
   bottom: calc(-10px - 5vw);
@@ -54,8 +54,26 @@
 .text-color {
   color: #5299E1;
 }
-
-
+.text-color2 {
+  color: #d3daeb;
+}
+.card-body {
+  border: solid 5px #1E1A33;
+  border-top: none;
+}
+.card-img-top:hover .card-img-top::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #0C003D;
+  opacity: 0.5;
+  z-index: 1;
+}
+.rate-icon {
+  color: #5299E1;
+}
 /**********************************************************************************************************************/
 /*Media Queries*/
 
