@@ -26,7 +26,7 @@ function CoursesItem({coursesCategory, allCourses}) {
           {currentCourses.map((course, index)=> {
             return (
               <Col key={course.id} lg={allCourses ? 3 : 4} md={6} sm={12} className={allCourses && index%2!=0 ? "mb-3 mt-lg-5" : "mb-3"}>
-                <Link to={"/course/"+course.id}><img src={course.image} className="card-img-top position-relative" alt="course" /></Link>
+                <Link to={"/course/"+course.id} className="card-img-top"><div  className="card-img"><img  className="w-100" src={course.image} alt="course" /></div></Link>
                 <div className="card-body">
                   <h5 className="card-title">{course.title}</h5>
                   <p className="card-text"><FaStar className="d-inline-block rate-icon" /><FaStar className="d-inline-block rate-icon" /><FaStar className="d-inline-block rate-icon" /><FaStar className="d-inline-block rate-icon" /><FaRegStar className="d-inline-block rate-icon" /></p>
