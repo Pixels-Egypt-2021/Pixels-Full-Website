@@ -57,11 +57,12 @@
 .text-color2 {
   color: #d3daeb;
 } 
-.other-courses .card-body, .courses .card-body {
+instructors
+.other-courses .card-body, .courses .card-body, .instructors .card-body {
   border: solid 5px #1E1A33;
   border-top: none;
 }
-.other-courses .card-img, .courses .card-img {
+.other-courses .card-img, .courses .card-img, .instructors .card-img {
   overflow: hidden;
 }
 .other-courses .card-img img , .courses .card-img img {

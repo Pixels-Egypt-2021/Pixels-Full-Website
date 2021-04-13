@@ -21,7 +21,7 @@ const Instructors = () => {
           <Row className="justify-content-center align-items-start">
             {instructors.map((instructor,index)=> {
               return (
-                <Col key={instructor.id} lg={3} md={4} sm={12} className="mb-3">
+                <Col key={instructor.id} lg={3} md={4} sm={12} className="mb-3 instructors">
                   <img src={instructor.image} className={index%2!=0 ?"card-img-top pt-lg-5"  : "card-img-top"} alt="instructor" />
                   <div className= "card-body bg-light">
                     <h5 className="card-title">{instructor.name}</h5>
