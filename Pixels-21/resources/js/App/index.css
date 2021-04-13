@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 /**********************************************************************************************************************/
 /*Common Styles*/
 .section-title1 {
@@ -59,12 +57,11 @@
 .text-color2 {
   color: #d3daeb;
 } 
-instructors
 .other-courses .card-body, .courses .card-body, .instructors .card-body {
   border: solid 5px #1E1A33;
   border-top: none;
 }
-.other-courses .card-img, .courses .card-img, .instructors .card-img {
+.other-courses .card-img, .courses .card-img {
   overflow: hidden;
 }
 .other-courses .card-img img , .courses .card-img img {
@@ -95,7 +92,6 @@ instructors
   }
   
 }
->>>>>>> Stashed changes
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {

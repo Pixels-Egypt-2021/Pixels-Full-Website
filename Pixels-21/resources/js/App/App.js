@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { ToastContainer, toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
-// import './index.css';
 // import App from './App';
 
 import {
@@ -11,11 +10,12 @@ import {
     Switch,
     Route,
     Redirect
-  } from "react-router-dom";
+} from "react-router-dom";
 
 
-  import 'bootstrap/dist/css/bootstrap.min.css';
-  import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+import './index.css';
 
   import 'aos/dist/aos.css';
 
@@ -31,6 +31,8 @@ import {
 
 import Project from './pages/projectAndCourses/Compoments/Project';
 import Blog from './pages/Blogs/Components/Blog';
+import CoursesPage from './pages/Courses/CoursesPage';
+import SingleCoursePage from './pages/SingleCourse/SingleCoursePage';
 
 class App extends React.Component {
     render(){
@@ -45,6 +47,8 @@ class App extends React.Component {
                     <Route path="/project/:id">     <Project />                 </Route>
                     <Route path="/blogs">           <Blogs />                   </Route>
                     <Route path="/blog/:id">        <Blog />                    </Route>
+                    <Route path="/courses/:category">         <CoursesPage />             </Route>
+                    <Route path="/course/:id">     <SingleCoursePage />        </Route>
                     <Route path="/pixels-events">   <EventsPage />              </Route>
                     <Route path="/magazine">        <Magazine />                </Route>
                     <Redirect exact from="/" to="/home" />

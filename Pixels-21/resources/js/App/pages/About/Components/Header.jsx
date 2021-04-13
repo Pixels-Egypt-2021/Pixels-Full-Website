@@ -8,11 +8,11 @@ import { Row } from 'react-bootstrap';
 const Header = () => {
   return (
     <>
-      <header style={{"backgroundImage": "url('/images/header/About.jpg')"}} className="position-relative page-header">
+      <header style={{"backgroundImage": "url('/images/header/About.jpg')"}} className="page-header">
         <div className="about-header-container mx-3 d-flex justify-content-between align-items-center">
           <div className="about-header-info text-light ml-lg-2">
             <Row className="justify-content-center">
-              <div className="header-info-titles mb-md-3 col-lg-3 col-12">
+              <div className="about-header-info-titles mb-md-3 col-lg-3 col-12">
                 <h1 className="about-header-info-subtitle">About Us</h1>
                 <h2 className="about-header-info-title">Our Story!</h2>
               </div>
