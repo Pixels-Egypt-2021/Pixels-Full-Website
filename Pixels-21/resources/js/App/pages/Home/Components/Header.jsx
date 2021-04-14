@@ -10,13 +10,13 @@ function Header() {
     return (
         <>
         <header style={{"backgroundImage": "url('/images/pixelsG.JPG')"}} data-aos="zoom-in"  className="text-white overflow-hidden" id="home">
-            <div className="center text-center ">
+            <div className="center text-center " style= {{ 'top':"70%" }}>
                 <img src="/images/sloganPixels.png" className="pixels-logo" alt ="Pixels"/>
-                <h4 className="mb-4 mt-5 pixels-shout">
+                {/* <h4 className="mb-4 mt-5 pixels-shout">
                     We Learn ...We Make ...We Share
                     <br/>
                     We Are Pixels
-                </h4>
+                </h4> */}
 
                 {/* <!-- Button trigger modal --> */}
                 {/* <span type="button" className="text-white mt-5" data-toggle="modal" data-target="#exampleModal">

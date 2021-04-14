@@ -9,6 +9,8 @@ import Sponsor from './Components/Sponsor';
 import Statestics from './Components/Statestics';
 import TimeLine from './Components/TimeLine';
 
+import './HomeStyles.css'; 
+
 function HomePage() {
     return (
 
