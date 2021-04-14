@@ -1,30 +1,27 @@
-import React from 'react';
-import  Aos  from 'aos';
+import React from 'react'
+import { Container, Row } from 'react-bootstrap';
+import { FaBookReader, FaTasks } from 'react-icons/fa';
+import { FiShare2 } from 'react-icons/fi';
 
-
-import { FaBookReader , FaShareAlt  } from 'react-icons/fa'
-import { GoVerified } from 'react-icons/go'
 
 const Slogan = () => {
   return (
-        <section className="slogan-container py-5" >
-          <div className="container">
-            <div className="row text-center justify-content-between">
-              <div className="item1 col-lg-4 col-sm-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="50">
-                <FaBookReader className="w-100 mb-3" style={{ 'fontSize':"50px" }} />
-                <h2 className="slogan-text">Learn</h2>
-              </div>
-              <div className="item2 col-lg-4 col-sm-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="250">
-                <GoVerified className="w-100 mb-3" style={{ 'fontSize':"50px" }} />
-                <h2 className="slogan-text">Make</h2>
-              </div>
-              <div className="item2 col-lg-4 col-sm-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="450">
-                <FaShareAlt className="w-100 mb-3" style={{ 'fontSize':"50px" }} />
-                <h2 className="slogan-text">Share</h2>
-              </div>
-            </div>
-          </div>    
-        </section>
+    <Container id="slogan" className="py">
+        <Row className="slogan-container py-5 row justify-content-center align-items-center text-center" >
+          <div className="item1 col-lg-4 col-sm-3">
+            <FaBookReader size="2.5rem" className="mx-auto text-color"/>
+            <h2 className="slogan-text">Learn</h2>
+          </div>
+          <div className="item2 py-3 col-lg-4 col-sm-3">
+            <FaTasks size="2.5rem" className="mx-auto text-color"/>
+            <h2 className="slogan-text">Make</h2>
+          </div>
+          <div className="item2 col-lg-4 col-sm-3">
+          <FiShare2 size="2.5rem" className="mx-auto text-color"/>
+          <h2 className="slogan-text">Share</h2>
+          </div>
+        </Row>
+    </Container>
   )
 }
 export default Slogan;

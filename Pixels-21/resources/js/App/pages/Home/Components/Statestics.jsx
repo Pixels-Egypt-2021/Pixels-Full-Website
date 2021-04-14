@@ -2,32 +2,32 @@ import React from 'react'
 
 export default function Statestics() {
     return (
-        <section className="statestics " style={{backgroundImage:"url(/images/Mini-Event.JPG)",color:"#e3dce8"}}>
+        <section className="statestics " style={{backgroundColor:"#3a4d8f",color:"#e3dce8"}}>
 
             <div className="container">
 
             <div className="row">
-                <div className="col-lg-3 text-center" data-aos="fade-up"  data-aos-delay="50">
+                <div className="col-lg-3 text-center">
                     <i className="fas fa-book-open fa-3x mb-3"></i>
                     <br/>
                     <h3>6500</h3>
                     <p>Flyers</p>
                 </div>
-                <div className="col-lg-3 text-center" data-aos="fade-up"  data-aos-delay="250">
+                <div className="col-lg-3 text-center">
                     <i className="fas fa-pencil-ruler fa-3x mb-3"></i>
                     <br/>
                     <h3>4000</h3>
                     <p>Sessions</p>
                     
                 </div>
-                <div className="col-lg-3 text-center" data-aos="fade-up"  data-aos-delay="450">
+                <div className="col-lg-3 text-center">
                     <i className="fa fa-users fa-3x mb-3"></i>
                     <br/>
                     <h3>6000</h3>
                     <p>Students</p>
                     
                 </div>
-                <div className="col-lg-3 text-center" data-aos="fade-up"  data-aos-delay="650">
+                <div className="col-lg-3 text-center">
                     <i className="fa fa-video fa-3x mb-3"></i>
                     <br/>
                     <h3>+17K</h3>

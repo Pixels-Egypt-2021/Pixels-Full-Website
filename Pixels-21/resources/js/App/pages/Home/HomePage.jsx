@@ -1,5 +1,5 @@
 import React from 'react';
-import Slogan from '../Home/Components/Slogan';
+import Slogan from './Components/Slogan';
 import About from './Components/About';
 import Articles from './Components/Articles';
 import Header from './Components/Header';
@@ -8,8 +8,6 @@ import SeeMagazine from './Components/SeeMagazine';
 import Sponsor from './Components/Sponsor';
 import Statestics from './Components/Statestics';
 import TimeLine from './Components/TimeLine';
-
-import './HomeStyles.css'; 
 
 function HomePage() {
     return (

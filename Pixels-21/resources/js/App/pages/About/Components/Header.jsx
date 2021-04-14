@@ -8,11 +8,11 @@ import { Row } from 'react-bootstrap';
 const Header = () => {
   return (
     <>
-      <header style={{"backgroundImage": "url('/images/header/About.jpg')"}} className="position-relative page-header">
+      <header style={{"backgroundImage": "url('/images/header/About.jpg')"}} className="page-header">
         <div className="about-header-container mx-3 d-flex justify-content-between align-items-center">
           <div className="about-header-info text-light ml-lg-2">
             <Row className="justify-content-center">
-              <div className="header-info-titles mb-md-3 col-lg-3 col-12">
+              <div className="about-header-info-titles mb-md-3 col-lg-3 col-12">
                 <h1 className="about-header-info-subtitle">About Us</h1>
                 <h2 className="about-header-info-title">Our Story!</h2>
               </div>
@@ -33,27 +33,27 @@ const Header = () => {
           </div>
           <div className="about-social-media text-center mr-2">
             <ul className="list">
-              <li className="my-3">
+              <li className="my-4">
                 <a target="_blanck" className="my-4" href="https://www.facebook.com/PixelsEgyptOrg/">
                   <FaFacebookF size="1.5rem"/>
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-4">
                 <a target="_blanck" className="my-4" href="https://twitter.com/pixelsegypt?lang=en">
                   <FaTwitter size="1.5rem"/>
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-4">
                 <a target="_blanck" className="my-4" href="https://www.instagram.com/pixelsegypt/">
                   <AiFillInstagram size="1.5rem"/>
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-4">
                 <a target="_blanck" className="my-4" href="https://www.youtube.com/c/PixelsEgypt">
                   <FaYoutube size="1.5rem"/>
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-4">
                 <a target="_blanck" className="my-4" href="https://www.linkedin.com/company/pixels-hsb/">
                   <FaLinkedinIn size="1.5rem"/>
                 </a>
