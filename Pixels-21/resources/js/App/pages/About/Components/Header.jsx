@@ -33,27 +33,27 @@ const Header = () => {
           </div>
           <div className="about-social-media text-center mr-2">
             <ul className="list">
-              <li className="my-3">
+              <li className="my-4">
                 <a target="_blanck" className="my-4" href="https://www.facebook.com/PixelsEgyptOrg/">
                   <FaFacebookF size="1.5rem"/>
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-4">
                 <a target="_blanck" className="my-4" href="https://twitter.com/pixelsegypt?lang=en">
                   <FaTwitter size="1.5rem"/>
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-4">
                 <a target="_blanck" className="my-4" href="https://www.instagram.com/pixelsegypt/">
                   <AiFillInstagram size="1.5rem"/>
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-4">
                 <a target="_blanck" className="my-4" href="https://www.youtube.com/c/PixelsEgypt">
                   <FaYoutube size="1.5rem"/>
                 </a>
               </li>
-              <li className="my-3">
+              <li className="my-4">
                 <a target="_blanck" className="my-4" href="https://www.linkedin.com/company/pixels-hsb/">
                   <FaLinkedinIn size="1.5rem"/>
                 </a>

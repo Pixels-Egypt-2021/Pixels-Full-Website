@@ -54,14 +54,14 @@ ul {
 
 /*****************************************************/
 /*F&Q*/
-.F_Q-titles .section-title1 {
+.F_Q-titles .section-title1, .work-flow-titles .section-title1{
   color: #1E1A33;
 }
-.F_Q-info-subtitle {
+.F_Q-info-subtitle, .work-flow-info-subtitle {
   color: #4ea4fa;
   font-size: calc(6px + 0.7vw);
 }
-.F_Q-questions-desc {
+.F_Q-questions-desc, .work-flow-desc {
   color: #363636;
   font-size: calc(10px + 0.5vw);
 }
