@@ -36,8 +36,8 @@ export default function About() {
                     </div>
                 </div>
             </div>
-
-            <div className="row">
+            
+            {/* <div className="row">
                 <div className="col-lg-6 align-self-center v-m-heading" >
                     <label className=" rounded-pill">What We Do?</label>
                     <h2>MISSION</h2>
@@ -50,14 +50,8 @@ export default function About() {
                     <p className="text-justify">
                         Building strong, conscious and well quailed calibers, & having a creative Arabic society which can improve and produce different new technologies through enriching youth skills.
                     </p>
-                    <div className="about-images text-center col-lg-6 col-12">
-                        <img alt="about" className="position-absolute about-img about-img2" width="220px" height="150px" src="./img/home-page/about/about2.jpg" alt=""/>
-                        <img alt="about" className="position-absolute about-img about-img1" width="220px" height="150px" src="./img/home-page/about/about1.jpg" alt=""/>
-                        <img alt="about" className="position-absolute about-img about-img3" width="220px" height="150px" src="./img/home-page/about/about3.jpg" alt=""/>
-                        <img alt="about" className="position-absolute about-img about-img4" width="220px" height="150px" src="./img/home-page/about/about4.jpg" alt=""/>
-                    </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="row " style={{ "margin":"143px 0 45px 0" }}>
                 <div className="col-lg-12  video-image" style={{backgroundImage: "url(/images/MagazineImg/WHO.png)"}}>
