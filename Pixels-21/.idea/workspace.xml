@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5a4c569-428d-401e-a49e-b8fd9e9f757b" name="Default Changelist" comment="" />
+    <list default="true" id="f5a4c569-428d-401e-a49e-b8fd9e9f757b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,6 +156,7 @@
       <updated>1618062147086</updated>
       <workItem from="1618062150000" duration="4249000" />
       <workItem from="1618080226464" duration="6000" />
+      <workItem from="1618437158603" duration="8000" />
     </task>
     <servers />
   </component>

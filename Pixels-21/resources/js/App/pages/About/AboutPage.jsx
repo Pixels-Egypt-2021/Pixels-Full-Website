@@ -1,14 +1,16 @@
 import React from 'react';
 import Header from './Components/Header';
-import F_Q from './Components/F_Q';
+import Questions from './Components/Questions';
 import Slogan from './Components/Slogan';
+import WorkFlow from './Components/WorkFlow';
 import './AboutStyles.css';
 export default function AboutPage() {
   return (
     <>
       <Header/>
       <Slogan/>
-      <F_Q/>
+      <WorkFlow />
+      <Questions/>
     </>
   )
 }
