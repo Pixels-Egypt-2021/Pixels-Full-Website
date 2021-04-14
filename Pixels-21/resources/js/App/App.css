@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); */
 
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+body {
+  font-family: 'Tajawal', sans-serif;
+}
 
 :root {
   /* Palettes Color */
@@ -433,21 +438,6 @@ header .pixels-logo {
 }
 
 /* End Articles Section */
-
-/* start statestics */
-
-.statestics {
-  /* background-image: url(images/pixelsG.JPG); */
-  background-color: white;
-  /* background-image: url(././images/robots-in-recruitment.jpg); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: var(--primary1);
-  padding: 80px 0;
-}
-
-/* End statestics */
 
 /* start Timeline */
 

@@ -52,35 +52,81 @@ ul {
 
 /*****************************************************/
 /*About section*/
-.about-desc {
-  color: #706f6f;
-  font-size: calc(8px + 0.6vw);
-}
 .about-feature {
   color: #5c8196;
   font-size: calc(7px + 0.6vw);
 }
-.about-img1 {
+
+.about-images .imgBox img {
+  position: absolute;
+  width: 270px;
+  height: auto;
+  border: 1px solid #010910;
+  filter: drop-shadow(4px 10px 12px black);
+  transition: all 0.6s ease-in-out;
+}
+
+.about-images .imgBox img:hover {
+  z-index: 10;
+  transform: scale(1.2);
+}
+
+.about-images  .imgBox:nth-child(1) img {
   top: 20px;
   right: 43%;
 }
-.about-img2 {
+.about-images .imgBox:nth-child(2) img {
   top: -30px;
   right: 6%;
 }
-.about-img3 {
+.about-images .imgBox:nth-child(3) img {
   top: 190px;
   right: 37%;
 }
-.about-img4 {
+.about-images .imgBox:nth-child(4) img {
   top: 140px;
   right: 0;
 }
 
+.about-video {
+  height: 600px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.v-m-section {
+  margin-top: 100px;
+}
 
 /*****************************************************/
-/**/
 
+/*====================================================
+----------{ Start Statestics Section }----------------
+======================================================*/
+
+.statestics {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--primary1);
+  padding: 100px 0;
+}
+
+.statestics::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #010910;
+  opacity: 0.6;
+}
+
+
+/*====================================================
+----------{ End Statestics Section }----------------
+======================================================*/
 
 
 
@@ -92,10 +138,17 @@ ul {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (max-width: 1200px) {
+
+  .about .row {
+    margin-bottom: 50px;
+  }
+
   .about-img {
     width: 180px;
     height: 150px;
   }
+
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -113,14 +166,8 @@ ul {
     width: 100%;
     margin-bottom: 10px !important;
   }
-  .about-img {
-    position: initial !important;
-    margin: 3px;
-
-  }
-  .about-img {
-    width: 240px;
-    height: 150px;
+  .about-images {
+    display: none;
   }
 }
 
@@ -134,24 +181,16 @@ ul {
     width: 25px;
     height: 25px;
   }
-  .about-img1 {
-    left: 0%;
-  }
-  .about-img2 {
-    left: 40%;
-  }
+  
   .feature-img {
     width: 20px;
     height: 20px;
   }
-  .about-img3 {
-    top: 160px;
-    left: 5%;
+
+  .about-video {
+    height: 400px;
   }
-  .about-img4 {
-    top: 110px;
-    right: 0;
-  }
+  
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -183,5 +222,10 @@ ul {
     width: 17px;
     height: 17px;
   }
+
+  .about-video {
+    height: 250px;
+  }
+
 }
 /*****************************************************************************************/
