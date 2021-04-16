@@ -40,6 +40,13 @@
   background: #000;
   opacity: .6;
 }
+.header-container {
+  transform: translateY(18%);
+  -webkit-transform: translateY(18%);
+  -moz-transform: translateY(18%);
+  -ms-transform: translateY(18%);
+  -o-transform: translateY(18%);
+}
 .list li a {
   color: #ffffff;
   border: solid 1px #ffffff;

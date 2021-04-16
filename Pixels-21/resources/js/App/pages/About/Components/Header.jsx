@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
       <header style={{"backgroundImage": "url('/images/header/About.jpg')"}} className="page-header">
-        <div className="about-header-container mx-3 d-flex justify-content-between align-items-center">
+        <div className="header-container mx-3 d-flex justify-content-between align-items-center">
           <div className="about-header-info text-light ml-lg-2">
             <Row className="justify-content-center">
               <div className="about-header-info-titles mb-md-3 col-lg-3 col-12">

@@ -28,10 +28,10 @@ export default function About() {
                         </div>
                     
                         <div className="about-images text-center col-lg-6 col-12">
-                            <img alt="about" className="position-absolute about-img about-img2" width="220px" height="150px" src="./img/home-page/about/about2.jpg" alt=""/>
-                            <img alt="about" className="position-absolute about-img about-img1" width="220px" height="150px" src="./img/home-page/about/about1.jpg" alt=""/>
-                            <img alt="about" className="position-absolute about-img about-img3" width="220px" height="150px" src="./img/home-page/about/about3.jpg" alt=""/>
-                            <img alt="about" className="position-absolute about-img about-img4" width="220px" height="150px" src="./img/home-page/about/about4.jpg" alt=""/>
+                            <img alt="about" className="position-absolute about-img about-img2" width="220px" height="150px" src="./images/home-page/about/about2.jpg" alt=""/>
+                            <img alt="about" className="position-absolute about-img about-img1" width="220px" height="150px" src="./images/home-page/about/about1.jpg" alt=""/>
+                            <img alt="about" className="position-absolute about-img about-img3" width="220px" height="150px" src="./images/home-page/about/about3.jpg" alt=""/>
+                            <img alt="about" className="position-absolute about-img about-img4" width="220px" height="150px" src="./images/home-page/about/about4.jpg" alt=""/>
                         </div>
                     </div>
                 </div>

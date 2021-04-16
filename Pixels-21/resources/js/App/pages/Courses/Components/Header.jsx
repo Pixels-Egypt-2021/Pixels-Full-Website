@@ -10,7 +10,7 @@ const Header = () => {
   <>
   <header style={{"backgroundImage": "url('/images/header/Courses.png')"}} className="page-header">
     <div className="overlayer">
-      <div className="courses-header-container d-flex mx-3 justify-content-between align-items-center">
+      <div className="header-container d-flex mx-3 justify-content-between align-items-center">
         <div className="courses-header-info text-light w-auto">
           <h1 className="courses-header-title mb-4">Thousands of classes <br /> to <span className="text-color">explore</span> your <br /><span className="text-color">creativity</span> and <span className="text-color">grow</span><br /> your <span className="text-color">career</span></h1>
           <Link to="/" className="courses-header-link p-2 text-light">get started for free</Link>
