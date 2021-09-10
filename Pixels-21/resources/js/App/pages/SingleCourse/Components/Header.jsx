@@ -11,7 +11,7 @@ function Header() {
     <>
       <header style={{"backgroundImage": "url('/images/header/Course.png')"}} className="page-header">
         <div className="overlayer">
-          <div className="courses-header-container d-flex mx-3 justify-content-between align-items-center">
+          <div className="header-container d-flex mx-3 justify-content-between align-items-center">
             <div className="courses-header-info text-light w-auto">
               <Row className="justify-content-lg-between align-items-start">
                 <Col lg={3}>

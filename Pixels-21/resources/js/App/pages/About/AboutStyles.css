@@ -11,17 +11,6 @@ ul {
 
 
 /**********************************************************************************************************************/
-/*Common Styles*/
-.about-header-container {
-  transform: translateY(25%);
-  -webkit-transform: translateY(25%);
-  -moz-transform: translateY(25%);
-  -ms-transform: translateY(25%);
-  -o-transform: translateY(25%);
-}
-
-
-/**********************************************************************************************************************/
 /*About page*/
 
 /*Header section*/
@@ -35,14 +24,14 @@ ul {
 }
 .header-info-desc1 {
   font-size: calc(8px + 0.8vw);
-  color: #ccd7df;
+  color: #c8d0d6;
 }
 .header-info-desc2-left-title, .header-info-desc2-right-title  {
   font-size: calc(8px + 1.3vw);
   color: #FFFFFF;
 }
 .header-info-desc2-left-desc, .header-info-desc2-right-desc {
-  color: #a9b5cc;
+  color: #c8d0d6;
   font-size: calc(8px + 0.8vw);
 }
 
@@ -50,6 +39,15 @@ ul {
   color: #030110;
   font-weight: 900;
   font-size: calc(8px + 1.4vw);
+}
+
+
+.work-flow-items {
+  border: 1px solid #7070704D;
+}
+.work-flow-item-text {
+  font-size: calc(10px + 0.5vw);
+  color: #777c80;
 }
 
 /*****************************************************/
@@ -76,8 +74,13 @@ ul {
 .answer {
   color: #585858;
   font-size: calc(8px + 0.5vw);
-  transition: display 2s !important;
+  /* transition: display 2s !important;
+  -webkit-transition: display 2s !important;
+  -moz-transition: display 2s !important;
+  -ms-transition: display 2s !important;
+  -o-transition: display 2s !important; */
 }
+
 .question-icon {
   transition: transform .5s;
   -webkit-transition: transform .5s;
